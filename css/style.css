@@ -204,6 +204,10 @@ h1 {
         margin-left: 24px;
     }
 
+    .brand {
+        margin-left: 24px;
+    }
+
     .swiper-pagination {
         display: none;
     }
@@ -227,6 +231,10 @@ h1 {
     .container {
         margin-left: 32px;
         width: 1120px;
+    }
+
+    .brand {
+        margin-left: 32px;
     }
 
     .view {
