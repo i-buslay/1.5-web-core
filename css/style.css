@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -12,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: TTLakes, sans-serif;
-    min-width: 360px;
+    background-color: #F2F2F2;;
 }
 
 h1 {
@@ -33,15 +35,15 @@ h1 {
     display: none;
 }
 
+
 .brands {
     display: flex;
     margin: 0;
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
-    min-width: 0;
-    width: 240px;
-    height: 72px;
+    width: 368px;
+    overflow: hidden;
 }
 
 .brand {
@@ -52,7 +54,7 @@ h1 {
     margin: 0;
     align-items: center;
     padding: 16px;
-    margin-right: 16px;
+    width: 240px;
 }
 
 .brand a {
@@ -104,7 +106,7 @@ h1 {
     border-left: 2px solid aqua;
     transform: rotate(-135deg);
     left: -25px;
-    top: 3px;
+    top: 5px;
 }
 
 .view::after {
@@ -115,8 +117,8 @@ h1 {
     border-top: 2px solid aqua;
     border-left: 2px solid aqua;
     transform: rotate(-135deg);
-    left: -132px;
-    top: 10px;
+    left: -130px;
+    top: 13px;
 }
 
 .close {
@@ -153,14 +155,16 @@ h1 {
     border-top: 2px solid aqua;
     border-left: 2px solid aqua;
     transform: rotate(45deg);
-    left: -88px;
+    left: -86px;
     top: 13px;
 }
 
-
-
 .swiper-pagination {
+    display: flex !important;
     top: 160px !important;
+    left: 90px !important;
+    height: 12px !important;
+    width: 220px !important;
 }
 
 .swiper-pagination-bullet {
