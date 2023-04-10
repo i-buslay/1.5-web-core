@@ -257,3 +257,14 @@ h1 {
         margin-left: 40px;
     }
 }
+
+@media (max-device-width: 767px) {
+    .view,
+    .view::before,
+    .view::after,
+    .close,
+    .close::after,
+    .close::before {
+        display: none;
+    }
+}
