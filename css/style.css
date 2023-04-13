@@ -54,7 +54,7 @@ h1 {
     margin: 0;
     align-items: center;
     padding: 16px;
-    width: 240px;
+    width: 222px;
 }
 
 .brand a {
@@ -218,8 +218,8 @@ h1 {
     }
 
     .brand {
-        min-width: 240px;
-        min-height: 72px;
+        width: 222px;
+        height: 72px;
         margin-bottom: 16px;
     }
 }
